@@ -24,7 +24,7 @@ class SimulationConfig:
 
 
 # load scene
-xml_path = 'basic/universal_robots_ur5e/scene.xml'
+xml_path = 'basic/scenes/universal_robots_ur5e/scene.xml'
 
 model = mujoco.MjModel.from_xml_path(xml_path)
 data = mujoco.MjData(model)
