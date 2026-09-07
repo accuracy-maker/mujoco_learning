@@ -13,3 +13,6 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# cpp
+basic/scenes/dual_arm/build/

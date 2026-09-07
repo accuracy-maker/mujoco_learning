@@ -1,7 +1,7 @@
 import pinocchio as pin
 import numpy as np
 
-URDF = "/home/z5506409/motion_planning_bench/basic/scenes/dual_arm/dual_panda.urdf"
+URDF = "/home/kye/mujoco_learning/basic/scenes/dual_arm/dual_panda.urdf"
 full = pin.buildModelFromUrdf(URDF)
 
 fingers = [n for n in full.names if "finger_joint" in n]
